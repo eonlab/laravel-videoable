@@ -1,8 +1,8 @@
 <?php
 
-namespace Nwidart\LaravelVideoable\Sources;
+namespace Eonlab\LaravelVideoable\Sources;
 
-use Nwidart\LaravelVideoable\Models\Video;
+use Eonlab\LaravelVideoable\Models\Video;
 
 abstract class BaseVideoSource
 {
