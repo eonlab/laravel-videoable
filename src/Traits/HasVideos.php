@@ -11,7 +11,7 @@ trait HasVideos
      */
     public function video()
     {
-        return $this->morphOne(Video::class, 'videoable');
+        return $this->morphedByMany(Video::class, 'videoable');
     }
 
     /**
