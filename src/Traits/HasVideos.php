@@ -9,7 +9,7 @@ trait HasVideos
     /**
      * @return mixed
      */
-    public function remotevideos()
+    public function embedvideos()
     {
         return $this->morphedByMany(Video::class, 'videoable');
     }
