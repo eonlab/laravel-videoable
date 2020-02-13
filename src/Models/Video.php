@@ -8,7 +8,7 @@ use Eonlab\LaravelVideoable\Exceptions\VideoPresenterNotFound;
 class Video extends Model
 {
     protected $table = 'videoables';
-    protected $fillable = ['source', 'code', 'title', 'width', 'height', 'videoable_id', 'videoable_type'];
+    protected $fillable = ['source', 'code', 'title', 'description', 'width', 'height', 'videoable_id', 'videoable_type'];
 
     public function videoable()
     {
