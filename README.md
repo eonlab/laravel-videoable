@@ -12,6 +12,7 @@
 | <= 5.4  | ^1.0 |
 | 5.5  | ^2.0  |
 | 5.7  | ^3.0  |
+| 6.0  | dev-master  |
 
 **Laravel Videoable** is a quick and easy way to add a video to your Eloquent Models. It also features a way to generate the embed code directly.
 
@@ -51,14 +52,14 @@ Next add the following service provider in `config/app.php`.
 
 ``` php
 'providers' => [
-  Nwidart\LaravelVideoable\LaravelVideoableServiceProvider::class,
+  Eonlab\LaravelVideoable\LaravelVideoableServiceProvider::class,
 ],
 ```
 
 Publish the package's migrations files by running :
 
 ```bash
-php artisan vendor:publish --provider="Nwidart\LaravelVideoable\LaravelVideoableServiceProvider" --tag=migrations
+php artisan vendor:publish --provider="Eonlab\LaravelVideoable\LaravelVideoableServiceProvider" --tag=migrations
 ```
 
 After the migrations have been published you can create the `laravel_videoables` table by running the migrations
@@ -70,13 +71,13 @@ php artisan migrate
 (optional) Publish the package's configuration file by running :
 
 ``` bash
-php artisan vendor:publish --provider="Nwidart\LaravelVideoable\LaravelVideoableServiceProvider" --tag=config
+php artisan vendor:publish --provider="Eonlab\LaravelVideoable\LaravelVideoableServiceProvider" --tag=config
 ```
 
 (optional) Publish the package's view files by running :
 
 ``` bash
-php artisan vendor:publish --provider="Nwidart\LaravelVideoable\LaravelVideoableServiceProvider" --tag=views
+php artisan vendor:publish --provider="Eonlab\LaravelVideoable\LaravelVideoableServiceProvider" --tag=views
 ```
 
 
