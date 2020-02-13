@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\LaravelVideoable\Models;
+namespace Eonlab\LaravelVideoable\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Nwidart\LaravelVideoable\Exceptions\VideoPresenterNotFound;
+use Eonlab\LaravelVideoable\Exceptions\VideoPresenterNotFound;
 
 class Video extends Model
 {
