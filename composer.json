@@ -1,5 +1,5 @@
 {
-    "name": "nwidart/laravel-videoable",
+    "name": "eonlab/laravel-videoable",
     "type": "library",
     "description": "Attach videos to your models",
     "keywords": [
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nwidart\\LaravelVideoable\\": "src"
+            "Eonlab\\LaravelVideoable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nwidart\\LaravelVideoable\\tests\\": "tests"
+            "Eonlab\\LaravelVideoable\\tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,7 +49,7 @@
         },
         "laravel": {
             "providers": [
-                "Nwidart\\LaravelVideoable\\LaravelVideoableServiceProvider"
+                "Eonlab\\LaravelVideoable\\LaravelVideoableServiceProvider"
             ]
         }
     },
