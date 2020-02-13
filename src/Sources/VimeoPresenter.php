@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\LaravelVideoable\Sources;
+namespace Eonlab\LaravelVideoable\Sources;
 
 final class VimeoPresenter extends BaseVideoSource
 {
