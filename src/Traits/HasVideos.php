@@ -1,8 +1,8 @@
 <?php
 
-namespace Nwidart\LaravelVideoable\Traits;
+namespace Eonlab\LaravelVideoable\Traits;
 
-use Nwidart\LaravelVideoable\Models\Video;
+use Eonlab\LaravelVideoable\Models\Video;
 
 trait HasVideos
 {
