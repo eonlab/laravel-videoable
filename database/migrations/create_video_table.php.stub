@@ -12,7 +12,7 @@ class CreateVideosTable extends Migration
      */
     public function up()
     {
-        Schema::create('laravel_videoables', function (Blueprint $table) {
+        Schema::create('videoables', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('source');
@@ -33,6 +33,6 @@ class CreateVideosTable extends Migration
      */
     public function down()
     {
-        Schema::drop('laravel_videoables');
+        Schema::drop('videoables');
     }
 }
