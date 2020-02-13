@@ -2,7 +2,7 @@
 
 return [
     'sources' => [
-        'youtube' => \Nwidart\LaravelVideoable\Sources\YoutubePresenter::class,
-        'vimeo' => \Nwidart\LaravelVideoable\Sources\VimeoPresenter::class,
+        'youtube' => \Eonlab\LaravelVideoable\Sources\YoutubePresenter::class,
+        'vimeo' => \Eonlab\LaravelVideoable\Sources\VimeoPresenter::class,
     ],
 ];
