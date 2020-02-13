@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\LaravelVideoable;
+namespace Eonlab\LaravelVideoable;
 
 use Illuminate\Support\ServiceProvider;
 
